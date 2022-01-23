@@ -21,6 +21,7 @@ export default () => {
           <Header />
           <Switch>
             <Route path="/auth" component={AuthApp} />
+
             <Route path="/" component={MarketingApp} />
           </Switch>
         </div>
